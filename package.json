@@ -1,5 +1,5 @@
 {
-  "name": "generator-itwinjs-connector",
+  "name": "@bentley/generator-itwinjs-connector",
   "version": "0.0.1",
   "description": "Yeoman generator for an iModel.js Connector",
   "license": "MIT",
