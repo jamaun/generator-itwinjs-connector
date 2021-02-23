@@ -1,0 +1,24 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.nyc_output": true,
+    "**/node_modules": true,
+    "lib/**": true,
+    ".local": true,
+    ".yo-rc.json": true,
+  },
+  "search.exclude": {
+    "dist/**": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "files.associations": {
+    ".env": "ini",
+    "**/.pipelines/**/*.yaml": "azure-pipelines"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
+}
